@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OnlineShooping</title>
+	<style>
+		.imgsize {width: 100px; height: 100px;}
+	</style>
+</head>
+<body>
+	<p><h3>Online Shooping</h3></p>
+	<p>Display 5 images/icons that when clicked will link to various online shopping platforms(Shopee, Lazada, Shein, Amazon, eBay, etc).</p>
+	<div>
+		<a href="https://www.amazon.com/">
+		<img src="https://raw.githubusercontent.com/botcruz/StackEdWebTraining2023/main/Amazon.jpg" alt="Amazon-Logo" class="imgsize"></a>
+
+		<a href="https://www.lazada.com.ph/">
+		<img src="https://raw.githubusercontent.com/botcruz/StackEdWebTraining2023/main/Lazada.jpg" alt="Lazada-Logo" class="imgsize"></a>
+
+		<a href="https://ph.shein.com/">
+		<img src="https://raw.githubusercontent.com/botcruz/StackEdWebTraining2023/main/Shein.jpg" alt="Shein-Logo" class="imgsize"></a>
+
+		<a href="https://shopee.ph/">
+		<img src="https://raw.githubusercontent.com/botcruz/StackEdWebTraining2023/main/Shopee.jpg" alt="Shopee-Logo" class="imgsize"></a>
+
+		<a href="https://www.ebay.ph/">
+		<img src="https://raw.githubusercontent.com/botcruz/StackEdWebTraining2023/main/ebay.jpg" alt="eBay-Logo" class="imgsize"></a>
+	</div>
+
+</body>
+</html>
