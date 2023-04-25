@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+        table {border: 1px solid;
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px;}
+        .btn1 {padding: 10px 15px;
+            font-size: 16px;}
+        .div_form {background-color: #F2F2F2;
+            width: 350px;}
+        .td_width1 {width: 140px;}
+	</style>
+</head>
+<body>
+	<div>
+        <p><h4>Log In</h4></p>
+	    <p>Create a simple Registrion form</br>
+        The user should input their username and password</br>
+        The result should be something like this</p>
+    </div>
+    <div class="div_form">
+        <form action="?" method="get">
+            <table>
+                <tr>
+                    <td colspan="2"><h2>Log In</h2></td>
+                </tr>
+                <tr>
+                    <td class="td_width1"><label for="username">Username:</label></td>
+                    <td><input type="text" id="uname" name="username" required></td>
+                </tr>
+                <tr>
+                    <td class="td_width1"><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td><input class="btn1" type="submit" value="register"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
