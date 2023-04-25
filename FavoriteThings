@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FavoriteThings</title>
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+        table {border: 1px solid;
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px;}
+        .btn1 {padding: 10px 15px;
+            font-size: 16px;}
+        .div_form {background-color: #F2F2F2;
+            width: 410px;}
+        .td_width1 {width: 90px;}
+        .textarea1 {width: 310px; height:100px;
+            min-width:310px; max-width:310px; min-height:100px;}
+	</style>
+</head>
+<body>
+	<div>
+        <p><h4>Favorite Things</h4></p>
+	    <p>Create a form that will allow the user to select all the books that they have read before, rate the movies from 1-10</br>
+        and select only one music</p>
+        <p>Books and movies should be in unordered list while music in ordered list</p>
+    </div>
+    <div class="div_form">
+        <form action="?" method="get">
+            <table>
+                <tr>
+                    <td colspan="2">Book</td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>The Lord of the Rings</li>
+                        <li>To Kill a Mockingbird</li>
+                        <li>The Great Gatsby</li>
+                    </td></ul>
+                </tr>
+                <tr>
+                    <td colspan="2">Movies</td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>The Shawshank Redemption</li>
+                        <li>The Godfather</li>
+                        <li>Pulp Fiction</li>
+                    </td></ul>
+                </tr>
+                <tr>
+                    <td colspan="2">Music</td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>The Beatles</li>
+                        <li>Bob Dylan</li>
+                        <li>Johnny Cash</li>
+                    </td></ul>
+                </tr>
+                <tr>
+                    <td colspan="2"><h2>My Favorite Things</h2></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h3>Books i've read</h3></td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>
+                            <input type="checkbox" id="book1" name="book1" value="The Lord of the Rings">
+                            <label for="book1">The Lord of the Rings</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="book2" name="book" value="To Kill a Mockingbird">
+                            <label for="book2">To Kill a Mockingbird</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="book3" name="book3" value="The Great Gatsby">
+                            <label for="book3">The Great Gatsby</label>
+                        </li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h3>Movie Rating</h3></td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>
+                            <label for="movie1">The Shawshank Redemption</label>
+                            <input type="range" id="movie1" name="movie1" min="1" max="10">
+                        </li>
+                        <li>
+                            <label for="movie2">The Godfather</label>
+                            <input type="range" id="movie2" name="movie2" min="1" max="10">
+                        </li>
+                        <li>
+                            <label for="movie3">Pulp Fiction</label>
+                            <input type="range" id="movie3" name="movie3" min="1" max="10">
+                        </li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h3>Best Music</h3></td>
+                </tr>
+                <tr>
+                    <td><ol>
+                        <li>
+                            <input type="radio" id="music1" name="music" value="HTML">
+                            <label for="music1">The Beatles</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="music2" name="music" value="HTML">
+                            <label for="music2">Bob Dylan</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="music3" name="music" value="HTML">
+                            <label for="fruit3">Johnny Cash</label>
+                        </li>
+                    </ol></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
