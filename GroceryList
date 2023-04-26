@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GroceryList</title>
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+        table {border: 1px solid;
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px;}
+        .btn1 {padding: 10px 15px;
+            font-size: 16px;}
+        .div_form {background-color: #F2F2F2;
+            width: 410px;}
+        .td_width1 {width: 90px;}
+        .textarea1 {width: 310px; height:100px;
+            min-width:310px; max-width:310px; min-height:100px;}
+	</style>
+</head>
+<body>
+	<div>
+        <p>
+            <h4>Grocery List</h4>
+            Coding Repository </br>
+            Based </br>
+        </p>
+	    <p>Create a simple grocery checklist for each item, it should have a dropdown that wil</br>
+            allow users to select what brand they like. the dropdown option should have at least</br>
+            3 choices</p> 
+        <p>result should look like this.</p>
+            
+    </div>
+    <div class="div_form">
+        <form action="?" method="get">
+            <table>
+                <tr>
+                    <td colspan="2"><h2>Grocery Checklist</h2></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h3>Items:</h3></td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>
+                            <input type="checkbox" id="milk" name="milk" value="Milk">
+                            <label for="milk">Milk:</label>
+                            <select class="ddbox1" id="milkbrand" name="milkbrand">
+                                <option value="brandA">Brand A</option>
+                                <option value="brandB">Brand B</option>
+                                <option value="brandC">Brand C</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bread" name="bread" value="Bread">
+                            <label for="bread">Bread:</label>
+                            <select class="ddbox1" id="breadbrand" name="breadbrand">
+                                <option value="brandD">Brand D</option>
+                                <option value="brandE">Brand E</option>
+                                <option value="brandF">Brand F</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="eggs" name="eggs" value="Eggs">
+                            <label for="eggs">Eggs:</label>
+                            <select class="ddbox1" id="songbrand" name="eggsbrand">
+                                <option value="brandG">Brand G</option>
+                                <option value="brandH">Brand H</option>
+                                <option value="brandI">Brand I</option>
+                            </select>
+                        </li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><h3>Other Items:</h3></td>
+                </tr>
+                <tr>
+                    <td><ul>
+                        <li>
+                            <input type="checkbox" id="butter" name="butter" value="Butter">
+                            <label for="butter">Butter:</label>
+                            <select class="ddbox1" id="butterbrand" name="butterbrand">
+                                <option value="brandA">Brand A</option>
+                                <option value="brandB">Brand B</option>
+                                <option value="brandC3">Brand C</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="cheese" name="cheese" value="Cheese">
+                            <label for="bread">Cheese:</label>
+                            <select class="ddbox1" id="cheesebrand" name="cheesebrand">
+                                <option value="brandD">Brand D</option>
+                                <option value="brandE">Brand E</option>
+                                <option value="brandF">Brand F</option>
+                            </select>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="fruit" name="fruit" value="fruit">
+                            <label for="eggs">Fruits:</label>
+                            <select class="ddbox1" id="fruitbrand" name="fruitbrand">
+                                <option value="brandG">Brand G</option>
+                                <option value="brandH">Brand H</option>
+                                <option value="brandI">Brand I</option>
+                            </select>
+                        </li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td><input class="btn1" type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
