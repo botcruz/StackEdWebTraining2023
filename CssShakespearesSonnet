@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ShakespearesSonnet</title>
+	<style>
+		html, body {font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px; width: 100%; height: 100%;
+            padding: 0; border: 0; margin: 0;
+            display: flex; justify-content: center;}
+        
+        .bgc1 {background-color: #E2AC7F;}
+        .bgc2 {background-color: #F5F5DC;}
+
+        .font1 {font-family: impact;
+            font-style: italic;
+            text-align: center;}
+        .font2 {text-align: justify;
+            text-justify: inter-word;}
+        .font3 {text-align: center;}
+        .font4 {font-size: 15px; font-style: italic; 
+            text-align: center;}
+
+        .style1 {list-style-type: none;
+            font-style: italic;}
+        .style2::first-letter {list-style-type: none;
+            font-size: 115%; font-weight: bold;}
+
+        .divContainer {width: 70%; height: 100%;}
+        .bm1 {padding: 0; margin: 0;
+            border-bottom: 5px dotted black;}
+        .bm2 {padding: 20px 30px 0px 30px; border: 0; margin: 0;}
+        .bm3 {padding: 20px 0px; border: 0; margin: 0;}
+        .bm4 {padding: 10px 0px; border: 0; margin: 0;}
+        .bm5 {border: 5px; border-style: dotted;}
+        .bm6 {padding: 0; 
+            border-bottom: 5px dotted black;
+            margin: 0;}
+        
+	</style>
+</head>
+<body class="bgc1">
+    <div class="divContainer">
+        <div class="bgc2 bm5">
+            <div class="font1">
+                <h1 class="bm1">Shakespeare's Sonnet #18</h1>
+            </div>
+            <div class="bm2 font2">
+                This is one of the most famous of the sonnets. It is referenced in the film Dead Poets Society and gave names 
+                to the band The Darling Buds and the book and television series The Darling Buds of May. Read it and weep!
+            </div>
+            <div class="font3">
+                <ul class="style1 bm3">
+                    <li class="style2">Shall I compare thee to a summer's day?</li>
+                    <li class="style2">Thou art more lovely and more temperate:</li>
+                    <li class="style2">Rough winds do shake the darling buds of May,</li>
+                    <li class="style2">And summer's lease hath all too short a date:</li>
+                    <li class="style2">Sometime too hot the eye of heaven shines,</li>
+                    <li class="style2">And often is his gold complexion dimm'd,</li>
+                    <li class="style2">And every fair from fair sometime declines,</li>
+                    <li class="style2">By chance, or nature's changing course untrimm'd:</li>
+                    <li class="style2">But thy eternal summer shall not fade,</li>
+                    <li class="style2">Nor lose possession of that fair thou ow'st,</li>
+                    <li class="style2">Nor shall death brag thou wander'st in his shade,</li>
+                    <li class="style2">When in eternal lines to time thou grow'st,</li>
+                    <li class="style2">So long as men can breathe, or eyes can see,</li>
+                    <li class="style2">So long lives this, and this gives life to thee.</li>
+                </ul>
+            </div>
+            <div class="bm4 font4">See the 
+                <a href="http://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets">
+                    Shakespeare's sonnets
+                </a>
+                Wikipedia article for more information
+            </div>
+        </div>
+   </div>
+</body>
+</html>
